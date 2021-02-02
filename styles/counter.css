@@ -1,0 +1,42 @@
+.counter-wrap {
+  text-align: center;
+  margin: 5em auto;
+
+}
+.counter-wrap h3 {
+  color: #5c7cfa;
+  font-size: 2.5rem;
+  margin-top: 0.3em;
+}
+.counter-wrap p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.icon-files {
+  width: 220px;
+}
+.number {
+  border-bottom: 5px solid #ffeaa0;
+}
+/*.number::after {
+  content: "";
+  position: absolute;
+  left: 400px;
+  right: 400px;
+  bottom: 0;
+  height: 6px;
+  background-color: #ffeaa0;
+}*/
+
+@media (max-width:359px) {
+
+}
+
+@media (min-width:1024px) {
+  .counter-wrap p {
+    font-size: 1.8rem;
+  }
+  .counter-wrap h3 {
+    font-size: 4rem;
+  }
+}

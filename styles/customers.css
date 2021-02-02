@@ -1,0 +1,21 @@
+.customers-container {
+  margin: 2em auto !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.customers-container img {
+  width: 180px;
+}
+
+
+
+
+@media (max-width:359px) {
+
+}
+
+@media (min-width:1024px) {
+
+}

@@ -1,0 +1,47 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-image: url('../images/logo-service.png');
+  width: 130px;
+  height: 32px;
+/*  display: inline-block;
+  color: transparent;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.header-wrap {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  /*left: 0;
+  right: 0;*/
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.right-menu a {
+  color: grey;
+}
+
+@media (max-width:359px) {
+  .logo {
+    width: 120px;
+  }
+  .upArrow {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .logo {
+    width: 184px;
+    height: 46px
+  }
+  .header-wrap {
+    height: 86px;
+  }
+}
