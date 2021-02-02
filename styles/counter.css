@@ -1,6 +1,6 @@
 .counter-wrap {
   text-align: center;
-  padding: 5em 0;
+  padding: 50px 0 20px 0;
   background: linear-gradient(180deg,#fff 5.17%,#fafafa 100%);
 }
 .counter-wrap h3 {
@@ -12,15 +12,6 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
-/*.counter-wrap p::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 6px;
-  background-color: #ffeaa0;
-}*/
 .icon-files {
   width: 220px;
 }
@@ -40,14 +31,24 @@
 }
 
 @media (max-width:359px) {
-
+  .counter-wrap p {
+    font-size: 16px;
+  }
+  .counter-wrap h3 {
+    font-size: 36px;
+  }
 }
 
 @media (min-width:1024px) {
+  .counter-wrap {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    background: linear-gradient(180deg,#fff 5.17%,#fafafa 100%);
+  }
   .counter-wrap p {
-    font-size: 1.8rem;
+    font-size: 27px;
   }
   .counter-wrap h3 {
-    font-size: 4rem;
+    font-size: 74px;
   }
 }

@@ -1,5 +1,5 @@
 .customers-container {
-  margin: 2em auto !important;
+  margin: 5em auto !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -7,6 +7,7 @@
 
 .customers-container img {
   width: 180px;
+  margin-bottom: 1em;
 }
 
 

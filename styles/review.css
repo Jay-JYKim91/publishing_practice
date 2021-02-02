@@ -6,13 +6,13 @@
 .review {
   background-color: #fff;
   border-radius: 1em;
-  padding: 2em 1.5em;
+  padding: 30px 20px;
   box-shadow: 2px 8px 25px rgb(64 129 254 / 10%);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .review-wrap h2 {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 16px;
 }
 .review h3 {
   text-align: left;
