@@ -1,0 +1,70 @@
+.review-wrap {
+  background-color: #fafafa;
+  padding: 4em 0;
+}
+
+.review {
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 2em 1.5em;
+  box-shadow: 2px 8px 25px rgb(64 129 254 / 10%);
+  margin-bottom: 2em;
+}
+.review-wrap h2 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.review h3 {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+.review p {
+  font-size: 0.9rem;
+  color: #828282;
+  margin-bottom: 1em;
+}
+.name {
+  text-align: right;
+  color: black !important;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.name::after {
+  content: '님';
+  margin-left: 0.3em;
+  font-weight: normal;
+}
+@media (max-width:359px) {
+
+}
+
+@media (min-width:1024px) {
+  .review-wrap {
+    background-color: #fafafa;
+    padding: 6em 0;
+  }
+  .reviews {
+    display: flex;
+    justify-content: space-between;
+  }
+  .review {
+    width: 32%;
+    margin-bottom: 0;
+  }
+  .review-wrap h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2rem;
+  }
+  .review h3 {
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+  }
+  .review p {
+    font-size: 0.95rem;
+    color: #828282;
+    margin-bottom: 1em;
+  }
+}

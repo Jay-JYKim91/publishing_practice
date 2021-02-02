@@ -5,6 +5,7 @@
 @import url('customers.css');
 @import url('counter.css');
 @import url('feature.css');
+@import url('review.css');
 @import url('bottom.css');
 @import url('footer.css');
 
@@ -23,8 +24,4 @@
   height: 100%;
   margin: 0 auto;
   padding: 0 1em;
-}
-
-main {
-  margin-bottom: 3em;
 }

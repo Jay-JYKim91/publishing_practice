@@ -25,8 +25,11 @@
 }
 .right-menu a {
   color: grey;
+  font-weight: bold;
 }
-
+.upArrow {
+  margin-left: 3px;
+}
 @media (max-width:359px) {
   .logo {
     width: 120px;

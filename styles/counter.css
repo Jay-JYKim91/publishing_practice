@@ -1,7 +1,7 @@
 .counter-wrap {
   text-align: center;
-  margin: 5em auto;
-
+  padding: 5em 0;
+  background: linear-gradient(180deg,#fff 5.17%,#fafafa 100%);
 }
 .counter-wrap h3 {
   color: #5c7cfa;
@@ -12,21 +12,32 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
-.icon-files {
-  width: 220px;
-}
-.number {
-  border-bottom: 5px solid #ffeaa0;
-}
-/*.number::after {
+/*.counter-wrap p::after {
   content: "";
   position: absolute;
-  left: 400px;
-  right: 400px;
+  left: 0;
+  right: 0;
   bottom: 0;
   height: 6px;
   background-color: #ffeaa0;
 }*/
+.icon-files {
+  width: 220px;
+}
+.number {
+  color: #5c7cfa;
+  position: relative;
+  display: inline-block;
+}
+.number::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background-color: #ffeaa0;
+}
 
 @media (max-width:359px) {
 

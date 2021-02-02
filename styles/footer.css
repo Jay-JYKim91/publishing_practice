@@ -1,7 +1,126 @@
-@media (max-width:359px) {
+.footer-nav {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.5em 0;
+}
+.footer-nav ul {
+  text-align: center;
+}
 
+.footer-nav ul li {
+  display: inline-block;
+  padding: 4px 0;
+  margin: 0 6px;
+}
+.footer-nav li::before {
+  display: none;
+}
+.footer-nav li a {
+  color: #4f4f4f !important;
+}
+.footer-info {
+  text-align: center;
+}
+.logo-company {
+  margin-top: 2em;
+}
+.company-info {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.company-info span {
+  display: block;
+  color: #828282 !important;
+}
+.company-info .bar {
+  display: none;
+}
+.contact-list {
+  display: block;
+  max-width: 450px;
+  margin: 18px auto 0 auto;
+}
+.contact-list li {
+  display: inline-block;
+  color: #828282;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.contact-list a {
+  color: #828282 !important;
+}
+.contact-list li::before {
+  display: none;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 1em;
+  margin-bottom: 7em;
+  position: relative;
+}
+.footer-bottom span {
+  color: #828282 !important;
+
+}
+.policy {
+  font-weight: bold;
+  margin-top: 1em;
+  color: #828282 !important;
+}
+.policy a {
+  color: #828282 !important;
+}
+.channel {
+  margin-top: 2em;
+}
+.channel img {
+  margin-right: 1em;
+}
+@media (max-width:359px) {
+  .footer-nav ul {
+    flex-direction: column;
+  }
+  .policy a {
+    display: block;
+  }
 }
 
 @media (min-width:1024px) {
-
+  .footer-info {
+    text-align: left;
+  }
+  .company-info .bar {
+    display: inline-block;
+    margin: 0 6px;
+    color: #e0e0e0;
+  }
+  .company-info span {
+    display: inline;
+  }
+  .contact-list {
+    display: block;
+    max-width: 450px;
+    margin: 1em 0 0 0;
+  }
+  .footer-bottom {
+    display: inline;
+    align-items: center;
+    font-size: 12px;
+  }
+  .footer-info {
+    margin-bottom: 5em !important;
+  }
+  .copyright {
+    margin-right: 3em;
+  }
+  .policy a {
+    margin-right: 1em;
+  }
+  .channel {
+    position: relative;
+    left: 37%;
+  }
 }

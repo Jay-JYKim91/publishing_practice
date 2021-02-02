@@ -34,7 +34,7 @@
 .app-btn {
   display: none;
 }
-.hero-illustration {
+.hero-image {
   background-image: url('../images/hero.svg');
   margin-top: 30px;
   /*width: 150%;*/
@@ -56,7 +56,7 @@
   .hero-wrap .hero-container {
     padding: 0;
   }
-  .hero-illustration {
+  .hero-image {
     background-image: url('../images/hero.svg');
     position: absolute;
     bottom: 0;
