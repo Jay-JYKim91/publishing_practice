@@ -1,6 +1,12 @@
 .review-wrap {
-  background-color: #fafafa;
-  padding: 4em 0;
+  background-color: var(--grey-background);
+  padding: 60px 0;
+}
+
+.review-wrap h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 21px;
 }
 
 .review {
@@ -10,61 +16,64 @@
   box-shadow: 2px 8px 25px rgb(64 129 254 / 10%);
   margin-bottom: 1em;
 }
-.review-wrap h2 {
-  text-align: center;
-  margin-bottom: 16px;
-}
+
 .review h3 {
-  text-align: left;
-  font-size: 1rem;
-  margin-bottom: 1em;
+  font-size: 17px;
+  margin-bottom: 8px;
 }
+
 .review p {
-  font-size: 0.9rem;
-  color: #828282;
-  margin-bottom: 1em;
+  font-size: 14px;
+  color: var(--grey);
+  margin-bottom: 20px;
 }
+
 .name {
   text-align: right;
   color: black !important;
   font-weight: bold;
   margin-bottom: 0 !important;
+  font-size: 15px;
 }
+
 .name::after {
   content: '님';
   margin-left: 0.3em;
   font-weight: normal;
 }
-@media (max-width:359px) {
 
+@media (max-width:359px) {
 }
 
 @media (min-width:1024px) {
   .review-wrap {
-    background-color: #fafafa;
     padding: 6em 0;
   }
+
   .reviews {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
+
   .review {
     width: 32%;
-    margin-bottom: 0;
+    margin-bottom: 1em;
+    padding: 40px 30px;
   }
+
   .review-wrap h2 {
-    text-align: center;
-    margin-bottom: 2em;
-    font-size: 2rem;
+    margin-bottom: 30px;
+    font-size: 32px;
   }
+
   .review h3 {
-    text-align: left;
-    font-size: 1.4rem;
-    margin-bottom: 1em;
+    font-size: 22px;
+    margin-bottom: 8px;
   }
+
   .review p {
-    font-size: 0.95rem;
-    color: #828282;
-    margin-bottom: 1em;
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 }

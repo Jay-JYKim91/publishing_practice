@@ -1,118 +1,94 @@
-.feature-wrap {
-/*  padding-top: 10em;*/
-}
 .feature {
-  background-color: white;
   padding-top: 3em;
 }
 .feature:nth-of-type(odd) {
   background-color: #fafafa;
 }
 .feature-text h2 {
-  font-size: 1.5rem;
+  font-size: 24px;
   margin: 8px 0 24px 0;
 }
 .feature-text h3 {
-  font-size: 1rem;
+  font-size: 16px;
 }
 .feature-text h2::after {
   content: ".";
-  color: #5c7cfa;
+  color: var(--blue);
 }
-ul {
+.feature-text ul {
   list-style-position: inside;
   list-style-type: none;
 }
-li {
-    font-size: 16px;
-    position: relative;
-    padding-left: 10px;
-    color: #828282;
-    word-break: keep-all;
-    margin-bottom: 8px;
+.feature-text ul li {
+  font-size: 14px;
+  position: relative;
+  padding-left: 10px;
+  color: var(--grey);
+  word-break: keep-all;
+  margin-bottom: 8px;
 }
-li::before {
+.feature-text li::before {
   content: "";
-    position: absolute;
-    left: 0;
-    top: 6px;
-    background-color: #828282;
-    display: inline-block;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  background-color: var(--grey);
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
 }
 .feature-image {
   height: 420px;
   margin-top: 2em;
   text-align: center;
-/*  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;*/
 }
-.feature-img {
+.feature-image img{
   height: 100%;
-  vertical-align: baseline;
 }
-/*.feature1 {
-  background-image: url('../images/feature1.png');
-}*/
-.feature2 {
-  background-image: url('../images/feature2.png');
-}
-.feature3 {
-  background-image: url('../images/feature3.png');
-}
-.feature4 {
-  background-image: url('../images/feature4.png');
-}
-@media (max-width:359px) {
 
+@media (max-width:359px) {
 }
 
 @media (min-width:1024px) {
-
   .feature .container {
     display: flex;
     flex-direction: row;
+  }
 
-  }
-  .feature-image {
-    height: 470px;
-    margin-top: 2em;
-  }
   .feature {
     padding-top: 90px;
   }
+
   .feature-image {
+    height: 470px;
     margin-top: 0;
   }
-  .feature-img {
-    height: 100%;
-    vertical-align: baseline;
-  }
+
   .feature:nth-of-type(odd) .container {
     flex-direction: row-reverse;
   }
+
   .feature:nth-of-type(odd) .feature-text {
     padding: 55px 0 0 50px;
   }
+
   .feature:nth-of-type(even) .feature-text {
     padding-top: 75px;
   }
+
   .feature-text {
     flex-basis: 60%;
   }
+
   .feature-text h2 {
     font-size: 42px;
   }
+
   .feature-text h3 {
     font-size: 18px;
   }
-  .feature-text h2::after {
-    content: ".";
-    color: #5c7cfa;
-  }
+
   .feature-text li {
     font-size: 16px;
   }

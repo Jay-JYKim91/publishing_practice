@@ -1,22 +1,26 @@
 .counter-wrap {
   text-align: center;
   padding: 50px 0 20px 0;
-  background: linear-gradient(180deg,#fff 5.17%,#fafafa 100%);
+  background: linear-gradient(180deg, var(--white), var(--grey-background));
 }
+
 .counter-wrap h3 {
-  color: #5c7cfa;
-  font-size: 2.5rem;
+  color: var(--blue);
+  font-size: 36px;
   margin-top: 0.3em;
 }
+
 .counter-wrap p {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 16px;
 }
+
 .icon-files {
   width: 220px;
 }
+
 .number {
-  color: #5c7cfa;
+  color: var(--blue);
   position: relative;
   display: inline-block;
 }
@@ -31,23 +35,17 @@
 }
 
 @media (max-width:359px) {
-  .counter-wrap p {
-    font-size: 16px;
-  }
-  .counter-wrap h3 {
-    font-size: 36px;
-  }
 }
 
 @media (min-width:1024px) {
   .counter-wrap {
-    text-align: center;
     padding: 100px 0 50px 0;
-    background: linear-gradient(180deg,#fff 5.17%,#fafafa 100%);
   }
+
   .counter-wrap p {
     font-size: 27px;
   }
+
   .counter-wrap h3 {
     font-size: 74px;
   }

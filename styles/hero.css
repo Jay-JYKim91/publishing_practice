@@ -1,95 +1,83 @@
-/*Hero Start*/
 .hero-wrap {
   position: relative;
-  background-color: #e8edff;
+  background-color: var(--blue-background);
   padding-top: 3em;
   text-align: center;
 }
+
 .hero-wrap h3 {
-  background-color: #5c7cfa;
+  background-color: var(--blue);
   color: white;
   padding: 0.5em 1em;
   border-radius: 3em;
   display: inline-block;
   margin-bottom: 1em;
-  font-size: 0.8rem;
+  font-size: 13px;
 }
+
 .hero-wrap h2 {
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 36px;
 }
-/*.hero-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}*/
-.colored-text {
-  color: #5c7cfa;
-}
+
 .hero-wrap p {
   margin-top: 1em;
-  color: #777;
-  font-size: 0.85rem;
+  color: var(--grey-hero);
+  font-size: 14px;
 }
+
 .app-btn {
   display: none;
 }
+
 .hero-image {
   background-image: url('../images/hero.svg');
   margin-top: 30px;
-  /*width: 150%;*/
   height: 230px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
 @media (max-width:359px) {
 }
 
 @media (min-width:1024px) {
   .hero-wrap {
-    position: relative;
-    background-color: #e8edff;
-    padding: 4em;
+    padding-top: 70px;
+    padding-bottom: 100px;
     text-align: left;
   }
-  .hero-wrap .hero-container {
-    padding: 0;
-  }
+
   .hero-image {
-    background-image: url('../images/hero.svg');
     position: absolute;
     bottom: 0;
     right: calc(50% - 510px);
-    width: 608px;
+    width: 610px;
     height: 450px;
     margin: 0;
   }
+
   .hero-wrap h3 {
-    background-color: #5c7cfa;
-    color: white;
-    padding: 0.5em 1em;
-    border-radius: 3em;
-    display: inline-block;
-    margin-bottom: 1em;
+    font-size: 16px;
+    margin-bottom: 10px;
   }
   .hero-wrap h2 {
-    font-weight: bold;
-    font-size: 4rem;
+    font-size: 62px;
   }
-  .colored-text {
-    color: #5c7cfa;
-  }
+
   .hero-wrap p {
-    margin: 1em 0 5em 0;
-    color: #777;
-    font-size: 1.1rem;
+    font-size: 18px;
+    line-height: 1.5;
   }
+
   .app-btn {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 62px;
   }
+
   .app-btn a {
     margin-right: 1em;
   }

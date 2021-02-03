@@ -1,22 +1,20 @@
-.customers-container {
-  margin: 5em auto !important;
+.customer-wrap .customer-container {
+  margin: 5em auto;
+}
+
+.customer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.customers-container img {
+.customer-container img {
   width: 180px;
   margin-bottom: 1em;
 }
 
-
-
-
 @media (max-width:359px) {
-
 }
 
 @media (min-width:1024px) {
-
 }
