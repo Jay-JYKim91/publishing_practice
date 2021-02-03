@@ -15,23 +15,28 @@ observer.observe();
 
 
 // Image appearance upon scrolling Start
+const heroImageUp = {
+  distance: '50px',
+  origin: 'right',
+  duration: 1500
+}
 const featureTextUp = {
   distance: '30px',
   origin: 'bottom',
-  duration: 1500,
+  duration: 1500
 };
 const featureImageUp = {
   distance: '30px',
   origin: 'bottom',
-  duration: 2500,
+  duration: 2500
 };
 const reviewUp = {
-  delay: 0,
-  interval: 100,
+  interval: 200,
   distance: '30px',
   origin: 'bottom',
-  duration: 1500,
+  duration: 1500
 };
+ScrollReveal().reveal('.hero-image', heroImageUp);
 ScrollReveal().reveal('.feature-text', featureTextUp);
 ScrollReveal().reveal('.feature-image', featureImageUp);
 ScrollReveal().reveal('.reviews .review', reviewUp);

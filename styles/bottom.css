@@ -14,13 +14,11 @@
 }
 
 .bottom-image {
-  background: url('../images/bottom.png') no-repeat center bottom / contain;
   margin-top: 60px;
   height: 300px;
-/*  background-image: url('../images/bottom.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center bottom;*/
+  background-position: center bottom;
 }
 
 .mobile-btn {
