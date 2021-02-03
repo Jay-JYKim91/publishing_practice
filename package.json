@@ -18,10 +18,10 @@
   },
   "homepage": "https://jay-jykim91.github.io/test/",
   "dependencies": {
+    "counterup": "^1.0.2",
     "jquery": "^3.5.1",
-    "jquery.counterup": "^2.1.0",
+    "jquery-waypoints": "^2.0.3",
     "lozad": "^1.16.0",
-    "scrollreveal": "^4.0.7",
-    "waypoints": "^4.0.1"
+    "scrollreveal": "^4.0.7"
   }
 }
