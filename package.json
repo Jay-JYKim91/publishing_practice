@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jay-JYKim91/signalPlanner.git"
+    "url": "git+https://github.com/Jay-JYKim91/test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jay-JYKim91/signalPlanner/issues"
+    "url": "https://github.com/Jay-JYKim91/test/issues"
   },
-  "homepage": "https://github.com/Jay-JYKim91/signalPlanner#readme",
+  "homepage": "https://jay-jykim91.github.io/test/",
   "dependencies": {
     "jquery": "^3.5.1",
     "jquery.counterup": "^2.1.0",
