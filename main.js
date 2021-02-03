@@ -36,7 +36,7 @@ const reviewUp = {
   origin: 'bottom',
   duration: 1500
 };
-ScrollReveal().reveal('.hero-image', heroImageUp);
+// ScrollReveal().reveal('.hero-image', heroImageUp);
 ScrollReveal().reveal('.feature-text', featureTextUp);
 ScrollReveal().reveal('.feature-image', featureImageUp);
 ScrollReveal().reveal('.reviews .review', reviewUp);
