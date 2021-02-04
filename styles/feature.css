@@ -31,6 +31,7 @@
   color: var(--grey);
   word-break: keep-all;
   margin-bottom: 8px;
+  list-style: none;
 }
 
 .feature-text li::before {
