@@ -1,9 +1,9 @@
-// coun-up Start
+// count-up Start
 $('.number').counterUp({
   delay: 10,
   time: 1300
 });
-// coun-up End
+// count-up End
 
 
 
