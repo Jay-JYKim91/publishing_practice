@@ -13,8 +13,8 @@
   margin-bottom: 1em;
 }
 
-@media (max-width:359px) {
+@media screen and (max-width:359px) {
 }
 
-@media (min-width:1024px) {
+@media screen and (min-width:1024px) {
 }
