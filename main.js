@@ -21,11 +21,13 @@ const heroImageUp = {
   duration: 1500
 }
 const featureTextUp = {
+  delay: 300,
   distance: '30px',
   origin: 'bottom',
   duration: 1500
 };
 const featureImageUp = {
+  delay: 300,
   distance: '30px',
   origin: 'bottom',
   duration: 2500
