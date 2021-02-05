@@ -7,7 +7,7 @@
 
 .hero-wrap h3 {
   background-color: var(--blue);
-  color: white;
+  color: var(--white);
   font-weight: normal;
   padding: 6px 16px 4px 16px;
   border-radius: 3em;
