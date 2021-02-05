@@ -1,33 +1,28 @@
-// count-up Start
+// hero-image parallax
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.hero-image').css('background-position', 'center ' + ((scrolledY)/2) + 'px');
+});
+
+// count-up
 $('.number').counterUp({
   delay: 10,
   time: 1300
 });
-// count-up End
 
-
-
-// Progressive loading End
-const observer = lozad();
+// Progressive loading
+const observer = lozad('.lozad', {
+  rootMargin: '700px 0px'
+});
 observer.observe();
-// Progressive loading Start
 
-
-
-// Image appearance upon scrolling Start
-const heroImageUp = {
-  distance: '50px',
-  origin: 'right',
-  duration: 1500
-}
+// Image appearance upon scrolling
 const featureTextUp = {
-  delay: 300,
   distance: '30px',
   origin: 'bottom',
   duration: 1500
 };
 const featureImageUp = {
-  delay: 300,
   distance: '30px',
   origin: 'bottom',
   duration: 2500
@@ -38,8 +33,6 @@ const reviewUp = {
   origin: 'bottom',
   duration: 1500
 };
-ScrollReveal().reveal('.hero-image', heroImageUp);
 ScrollReveal().reveal('.feature-text', featureTextUp);
 ScrollReveal().reveal('.feature-image', featureImageUp);
 ScrollReveal().reveal('.reviews .review', reviewUp);
-// Image appearance upon scrolling End

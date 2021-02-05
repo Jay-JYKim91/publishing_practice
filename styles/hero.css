@@ -40,12 +40,13 @@
 }
 
 .hero-image {
-  background-image: url('../images/hero.svg');
+  background-image: url('../images/hero-background.png'), url('../images/hero-main.png');
   margin-top: 30px;
   height: 230px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: center center;
+  background-attachment: scroll;
 }
 
 @media screen and (min-width:360px) and (max-width:1023px) {
