@@ -2,8 +2,6 @@
   position: sticky;
   z-index: 10;
   top: 0;
-  /*left: 0;
-  right: 0;*/
   height: 60px;
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -17,7 +15,7 @@
 }
 
 .header-logo {
-  width: 130px;
+  width: 120px;
   height: 32px;
 }
 
@@ -28,19 +26,18 @@
 }
 
 .upArrow {
-  margin-left: 3px;
-  width: 17px;
-  height: 17px;
-  vertical-align: sub;
+  display: none;
 }
 
-@media screen and (max-width:359px) {
+@media screen and (min-width:360px) and (max-width:1023px) {
   .header-logo {
-    width: 120px;
+    width: 130px;
   }
-
   .upArrow {
-    display: none;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: text-top;
   }
 }
 
@@ -56,5 +53,11 @@
 
   .header-menu a {
     font-size: 16px;
+  }
+  .upArrow {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: text-top;
   }
 }

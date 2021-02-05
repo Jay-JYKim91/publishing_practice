@@ -1,3 +1,7 @@
+footer {
+  word-break: keep-all;
+}
+
 .footer-nav {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
@@ -6,8 +10,8 @@
 
 .footer-nav ul {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer-nav ul li {
@@ -70,6 +74,12 @@
   color: var(--grey);
 }
 
+.contact-list a:hover, .policy a:hover, .company-info span a:hover, .footer-nav li a:hover {
+  color: var(--blue);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
 .policy {
   font-weight: bold;
   margin-top: 14px;
@@ -83,18 +93,25 @@
   margin-right: 1em;
 }
 
-@media screen and (max-width:359px) {
-  footer {
-    word-break: keep-all;
-  }
+.channel img:hover {
+  filter: invert(53%) sepia(79%) saturate(4055%) hue-rotate(212deg) brightness(99%) contrast(97%);
+}
 
+@media screen and (min-width:360px) and (max-width:1023px) {
   .footer-nav ul {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (min-width:1024px) {
+  .footer-nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
   .footer-nav ul li {
     padding: 12px 0;
     margin: 0 26px 0 0;

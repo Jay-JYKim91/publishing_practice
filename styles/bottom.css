@@ -34,7 +34,7 @@
   box-shadow: 0 9px 14px rgba(92, 124, 250, .25)
 }
 
-@media screen and (max-width:359px) {
+@media screen and (min-width:360px) and (max-width:1023px) {
 }
 
 @media screen and (min-width:1024px) {
